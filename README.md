@@ -1,8 +1,8 @@
 # Network-Layer-Distance-Routing-Vector-Implementation
 
 
-#January 2020 CSE 322 Offline Network Layer
-#Distance Vector Routing
+# January 2020 CSE 322 Offline Network Layer <br>
+# Distance Vector Routing <br>
 In this assignment, you will modify a given template (JAVA) to simulate simplified version of
 \Distance Vector Routing (DVR)".
 1. A topology of routers is given as an input in topology.txt. File input/output is managed
