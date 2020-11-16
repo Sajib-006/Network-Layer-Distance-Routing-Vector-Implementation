@@ -1,0 +1,20 @@
+lambda    avg hops    drop rate
+--------------------------------
+0.01       4.97		    11.5
+0.05	   4.45		    37.45
+0.10	   3.88		    45.61
+0.25	   2.80		    45.25
+0.50	   2.65		    61.47
+0.80	   2.33		    45.23
+
+Drop Rate
+lambda	    DVR	        SimpleDVR
+------------------------------------
+0.1	        45.61	    55.21
+
+Reasoning:
+----------
+In some cases, Simple DVR performed well than DVR for the same value of lambda. I think, it depends on randomness
+of turning on/off of routers. As the sleep value is high,so there was a situation when all packets were dropped in
+subsequent run. And again sometimes, no packet drop occured in subsequent run. So the result depends on runtime and
+moments of data collection. For better result, more times of run can be helpful.
